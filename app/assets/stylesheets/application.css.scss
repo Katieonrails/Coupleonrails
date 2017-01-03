@@ -1,0 +1,82 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require bootstrap/dist/css/bootstrap.min.css
+ *= require_tree .
+ *= require_self
+ */
+
+$fa-font-path: "font-awesome/fonts";
+@import "font-awesome/scss/font-awesome";
+
+.top_home_background {
+	background-color: #2b3035;
+}
+
+.navbar-nav a{
+	border-bottom:3px solid transparent;
+	padding-bottom: 12px !important;
+}
+
+.navbar-nav a:hover{
+	border-radius: 2px;
+	color: #04c4d9;
+	border-bottom:3px solid #04c4d9;
+}
+
+.homeline1 {
+	width:25%; 
+	height:2px; 
+	background: #04c4d9;
+	margin: 15px auto;
+}
+
+.subject {
+	font-size: 175%;
+	margin: 45px auto;
+	padding: 10px auto;
+	margin-bottom: 30px;
+}
+
+
+.two_columns {
+	color: #2b3035;
+	font-size: 180%;
+	line-height: 25px;
+	margin-bottom: 55px;
+	font-style: italic;
+}
+
+.second_row {
+	margin-bottom: 45px;
+}
+
+
+.small_line {
+	width:25%; 
+	height:2px; 
+	background: #04c4d9;
+	margin: 15px 35px;
+	display: block;
+}
+
+.btn-primary {
+    color: #353a40;
+    border-color: #04c4d9;
+}
+
+.icons {
+	font-size: 3em;
+	color: white;
+}
+
+
