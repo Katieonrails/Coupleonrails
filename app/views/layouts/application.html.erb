@@ -17,63 +17,51 @@
 			<nav class="navbar navbar-inverse">
 			  <div class="container-fluid">
 			    <div class="navbar-header">
-			      <a class="navbar-brand" href="#">CoupleOnRails</a>
+			    <div class="logocontainer">
+			      <a class="navbar-brand"> <%= image_tag("naszelogo/Icon.png", :class => "img-logo") %> </a>
+			      </div>
+			      <div class="logo_text"> Couple on rails </div>
 			    </div>
 			    <ul class="nav navbar-nav navbar-right">
 			      <li class="active"><a href="#">Home</a></li>
 			      <li><a href="#">Offer</a></li>
 			      <li><a href="#">Team</a></li>
+			      <li><%= link_to "Examples", examples_path %></li>
 			      <li><a href="#">Contact</a></li>
 			    </ul>
 			  </div>
 			</nav>
-
-		</div>
-		<div class="container">
-		  <div class="jumbotron">
-		    <h1>Couple on rails</h1> 
-		    <div class="homeline1"> 
-
-		    </div>
-		    <p>All web related projects at hand. </p> 
-		
-		  </div>
 		</div>
 	</div>
-
-<%= yield %>
 	
+
+		<%= yield %>
+
+
 	<div class="footer"> 
 		<div class="container">
 			<div class="row">
-			<div class="row">
-			<div class="col-xs-6">
-			<h1>Couple on rails </h1>
-			<br>
-			<br>
-			<div class="icons">
-			<i class="fa fa-facebook" aria-hidden="true"></i> 
-			<i class="fa fa-youtube" aria-hidden="true"></i>
-			<i class="fa fa-instagram" aria-hidden="true"></i>
-			</div>
-
-			</div>
-			</div>
-			</div>
-			</div>
-			<div class="col-xs-6">
-			</div>
-			</div>
-
-			<div class="row">
-			<div class="col-xs-6">
+				<div class="col-xs-6">
+					<i class="fa fa-copyright" aria-hidden="true"></i>
+					<p> 2017 Couple on rails. All rights reserved. </p>
+				</div>
+				<div class="col-xs-6">
+					<div class="icons">
+						<div class="icon_fb_background icons_background">
+							<i class="fa fa-facebook fa_social" aria-hidden="true"></i> 
+						</div>
+						<div class="icon_yt_background icons_background">
+							<i class="fa fa-youtube fa_social" aria-hidden="true"></i>
+						</div>
+						<div class="icon_insta_background icons_background">
+							<i class="fa fa-instagram fa_social" aria-hidden="true"></i>
+						</div>
+				</div>
 			</div>
 			</div>
 		</div>
 	</div>
-	
-
-
+			
 
   </body>
 </html>

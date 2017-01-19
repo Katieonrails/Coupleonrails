@@ -1,62 +1,87 @@
-<div class="two_columns">
-<div class="container">
-	<div class="row foto">
-			<div class="col-xs-6">
-				<%= image_tag("nasze.jpg", :class => "img-responsive") %>
-			</div>
-			<div class="col-xs-6 cechy">
-			     	<P>More than 10 years of experience</P>
-			     	<p>5 - star rating as freelancers (2013-2017)</p>
-			     	<p>International clients</p>
-			     	<p>Created from scratch multimillion-dollar startup</p>
-			     	<p>Mastered multiple AI algorithms</p>
-			</div>
-	  		</div>
+	<div class="uppage">
+		<div class="container">
+			  <div class="jumbotron">
+			  	<%= image_tag("naszelogo/Icon.png", :class => "logo_jumbatron") %>
+			    <h1>COUPLE ON RAILS</h1> 
+			    <p>All web related projects at hand. </p> 
+			    <a href="#" class="btn btn-info button_jumbatron" role="button">Contact us</a>
+				</div>
 		</div>
 	</div>
-		<div class="credentials"> 
-		<div class="container">	
+
+	<div class="pasek">
+	<div class="pasek_left"> </div>
+	<div class="pasek_right"></div>
+			<div class="container">
+				<div class="row firstrow">
+					<div class="number_col pinkbackground">
+						<h1 class="rozowa1">1 </h1>
+						<h3>MORE THAN <br><b>10 YEARS OF</b> EXPERIENCE</h3>
+					</div>
+					<div class="number_col secondpart">
+						<h1 class="szare num_right_down"> 2 </h1>
+						<h3> 5 - STAR RATING AS FREELANCERS</h3>
+						<h2>2013-2017</h2>
+					</div>
+					<div class="number_col thirdpart">
+						<h1 class="szare">3 </h1>
+						<h3>INTERNATIONAL</h3>
+						<h2>CLIENTS</h2>
+					</div>
+					<div class="number_col fourthpart">
+						<h1 class="szare num_right_down">4 </h1>
+						<h3>CREATED FROM SCRATCH MULTIMILLION-DOLLAR</h3>
+						<h2>STARTUP</h2>
+					</div>
+					<div class="number_col fifthpart">
+					<h1 class="szare">5 </h1>
+						<h3>MASTERED MULTIPLE</h3><br> 
+						<h2><b>AI ALGORITHMS</b></h2>
+					</div>
+				</div>
+			</div>
+	</div>
+
+
+
+
+<div class="credentials"> 
+	<div class="container container_credentials">	
 		<div class="row">
-		<div class="arrow_box">
-			<p> I just can't say enough about Dimitry. Dimitry is far and away the best freelancer I've worked with. 
-			<br> <b>He is great! If you have any Ruby on Rails work to be done, stop looking: Dimitry is awesome.</b> <br>
-
-			He thinks about what your project needs are and offers multiple solutions with pros and cons of each option. He considers long-term strategy and works to make your product flexible and scalable for the future. <br>
-
-			He is available on Skype during business hours and his English skills are amazing. He communicates on a regular basis with screenshots and video to help explain what he's currently doing. <br>
-
-			He is great at making web apps fast - the service he set up for me has a faster response time than Twitter.
-				<br>
-			He makes change requests reality in minutes (and isn't grumpy about it). 
-				<br>
-			I've worked with many freelancers, and no one has been as skilled, thoughtful, helpful, available, responsive, fluent in English, friendly as Dimitry.<br>
-			</p>
+			<table class="table_credentials">
+			  <tr>
+			    <th class="credential-row">
+				   <%= image_tag("qnotes.png", :class => "qnotes") %>
+					<br>
+					<br>
+					<p> Extremely hard worker. </p>
+				</th>
+			    <th class="credential-row">
+				    <%= image_tag("qnotes.png", :class => "qnotes") %>
+					<br>
+					<br>
+					<p> Very happy with Dmitry! <br> Really wish he could be part of our team forever.</p>
+			    </th>
+			  
+			  </tr>
+			  <tr>
+			    <td class="credential-person"> <%= image_tag("faces/Tob.jpg") %> 
+				    <div class="credential_text_person">
+					    <h2>CHRIS PETERS </h2> 
+					    <h3>DIRECTOR OF MARKETING AND PR, DIGGERLAND USA </h3>
+					</div>
+			    </td>
+			    <td class="credential-person"> <%= image_tag("faces/Tob.jpg") %> 
+			    	<div class="credential_text_person">
+				    	<h2>CHRIS PETERS </h2> 
+					    <h3>DIRECTOR OF MARKETING AND PR, DIGGERLAND USA </h3> 
+				    </div>
+				</td>
+			  </tr>
+			  </table>
+		</div>
+	</div>		
 </div>
-</div>
-			<div class="row">
-			<br> 
-			<p> <b> Ruby on Rails Membership Site + API <br>
-			Jun 2013 - Aug 2013 </p> </b>
-			<br>
-			<br>
-			</div>
-			<div class="row">
-			<div class="col-xs-6">
-				<div class="arrow_box">
-				<p><b> Extremely hard worker. </p></b>
-				</div>
-			</div>
-			<div class="col-xs-6">
-				<div class="arrow_box">
-				<p><b> Great contractor, worked fasts and was extremely responsive. <br> Will definitely hire again. </p></b>
-				</div>
-			</div>
-			</div>
-
-
-	</div>
-	</div>
-	</div>
 
 	
 	<div class="team_block">
@@ -64,69 +89,84 @@
 		<div class="row"> 
 				<h2> Team </h2>
 		</div>
-			  <div class="row">
-			     <div class="col-xs-2">
-			    <%= image_tag("", :class => "face") %>
+			  <div class="row row_photos">
+			     <div class="col-sm-3">
+			    <%= image_tag("faces/Dima.jpg", :class => "face") %>
+			    <h3>Dmitry</h3>
+			    <p>Master and chef</p>
 			     </div>
-			    <div class="col-xs-4">
-			    <h3> Dmitry </h3>
-			    <p> Master and chef </p>
-			    </div>
 
-			    <div class="col-xs-2">
+			    <div class="col-sm-3">
 			    <%= image_tag("faces/kasia.jpg", :class => "face") %>
-			     </div>
-			    <div class="col-xs-4">
 			    <h3> Kasia </h3>
 			    <p> Master and chef </p>
-			    </div>
-			  </div>
-
-			   <div class="row">
-			    <div class="col-xs-2">
-			    <%= image_tag("", :class => "face") %>
 			     </div>
-			    <div class="col-xs-4">
+			
+			    <div class="col-sm-3">
+			    <%= image_tag("faces/tatiana.jpg", :class => "face") %>
 			    <h3> Tatiana </h3>
 			    <p> Master and chef </p>
-			    </div>
-
-				<div class="col-xs-2">
-			    <%= image_tag("faces/Tob.jpg", :class => "face") %>
 			     </div>
-			    <div class="col-xs-4">
-			    <h3> Tob </h3>
+
+				<div class="col-sm-3">
+			    <%= image_tag("faces/Tob.jpg", :class => "face") %>
+			     <h3> Tob </h3>
 			    <p> Master and chef </p>
-			    </div>
+			     </div>
 			  </div>
 	</div>    
 	</div>
 
 
 	<div class="container items">
-	  <div class="row">
-	    <div class="col-xs-4">
-	    	<%= image_tag("paper.jpg") %>
-	      <h3>Project of any complexity </h3>
-	      <div class="small_line"> </div>
-	      <p>For us: impossible is... possible.<br>
-	      We can do everything from one page website to google competitor or AI which conquer the World ;) </p>
+	  <div class="row row_items">
+	    <div class="col-sm-4">
+		    <div class="all_col all_col_left">
+		     	<div class="notatki_img">
+		     		<div class="podklad"> 
+		     		<%= image_tag("notatki.jpg") %>
+		     		</div>
+		     	</div>
+		     	<div class="title_item">
+		     		<h3>Project of any complexity</h3>
+		     	</div>
+		     	<div class="text_item">
+		     		 <p>For us: impossible is... possible.<br>
+		      			We can do everything from one page website to google competitor or AI which conquer the World ;) </p>
+		     	</div>
+		    </div>
 	    </div>
 
-	    <div class="col-xs-4">
-	    	<%= image_tag("calendar.jpg") %>
-			<h3>Everything on time! </h3>	    
-			<div class="small_line"> </div>
-			<p>Good organization, time managment and focus on your work</p>
-			
+	    <div class="col-sm-4">
+	    	<div class="all_col all_col_center">
+				<div class="kalendarz_img">
+		     		<div class="podklad"> 
+		     		<%= image_tag("kalendarz.jpg") %>
+		     		</div>
+		     	</div>
+		     	<div class="title_item">
+		     		<h3>Everything on time!</h3>
+		     	</div>
+		     	<div class="text_item">
+		     		 <p>Good organization, time managment and focus on your work </p>
+		     	</div>
+		     </div>
 		</div>
 
-	    <div class="col-xs-4">
-	    <%= image_tag("photoes.jpg") %>
-			<h3> Nouvelle projects - only for you...</h3>	    
-			<div class="small_line"> </div>
-			<p>With the latest news from IT</p>
-			
+	    <div class="col-sm-4">
+	    	<div class="all_col all_col_right">
+				<div class="kalendarz_img">
+		     		<div class="podklad"> 
+		     		<%= image_tag("tablica.jpg") %>
+		     		</div>
+		     	</div>
+		     	<div class="title_item">
+		     		<h3>Nouvelle projects <br>- only for you...</h3>
+		     	</div>
+		     	<div class="text_item">
+		     		 <p>With the latest news from IT </p>
+		     	</div>
+		     </div>
 		</div>
 	  </div>
 	</div>
@@ -134,67 +174,63 @@
 
 	
 <div class="hands">	
-<%= image_tag("keyboard-computer-keys-white.jpg", :class => "background_img") %>
 	<div class="container">
 		<h1>Technologies we are working with: </h1>
-		
-		<% Dir.glob("#{Rails.root}/app/assets/images/loga/*").each do |img_file| %>
-			<%= image_tag("loga/"+File.basename(img_file), :class => "logo_img") %>
-
-		<% end %>
+			<div class="logos_container">
+				<% Dir.glob("#{Rails.root}/app/assets/images/loga/*").each do |img_file| %>
+					<%= image_tag("loga/"+File.basename(img_file), :class => "logo_img") %>
+				<% end %>
+			</div>
+			<div class="logo_button" id="show_logos_button">
+			<p>ALL TECHNOLOGIES </p>
+			</div>
 	</div>
 </div>
 	
-
-	<div class="credentials reviews_row2"> 
-	<div class="container">
-	<div class="row">
-			<div class="col-xs-6">
-				<div class="arrow_box">
-				<p><b> Very happy with Dmitry! <br> Really wish he could be part of our team forever.</p></b>
-				</div>
-			</div>
-			<div class="col-xs-6">
-				<div class="arrow_box">
-				<p><b> Dimitry is great once again. He provides updates every day as to his progress,<br> provides a private Github repo so you can check his commits,<br> and his work is great. Read my other longer review for more information! </p></b>
-				</div>
-				<br>
-				<br>
-				<br>
-			</div>
-	</div>
-	</div>
-	<div class="container review_row3">
+<div class="credentials"> 
+	<div class="container container_credentials">	
 		<div class="row">
-				<div class="col-xs-6">
-					<div class="arrow_box">
-					<p> As a first time user of Elance, Dmitry definitely made our job easy. We had indicated that we needed specific skills and a specific project done and he handled it all with very quick communication, excellent expertise and did it all in the version of Rails that we needed. Furthermore we came out perfectly on budget for what we wanted.<br>
-					<br> Would definitely hire him again.<br>
-					</p>
-					</div>
-				</div>
-				<div class="col-xs-6">
-					<div class="arrow_box">
-					<p><b> Really good work! I'm impressed, usually I'm not happy with freelancers </p></b>
-					</div>
+			<table class="table_credentials">
+			  <tr>
+			    <th class="credential-row">
+				   <%= image_tag("qnotes.png", :class => "qnotes") %>
 					<br>
-				<br>
-				<br>
-				</div>
+					<br>
+					<p> Very happy with Dmitry! Really wish he could be part of our team forever.</p>
+				</th>
+			    <th class="credential-row">
+				    <%= image_tag("qnotes.png", :class => "qnotes") %>
+					<br>
+					<br>
+					<p> Dimitry is great once again. He provides updates every day as to his progress, provides a private Github repo so you can check his commits, and his work is great. Read my other longer review for more information! </p>
+			    </th>
+			  
+			  </tr>
+			  <tr>
+			    <td class="credential-person"> <%= image_tag("faces/Tob.jpg") %> 
+				    <div class="credential_text_person">
+					    <h2>CHRIS PETERS </h2> 
+					    <h3>DIRECTOR OF MARKETING AND PR, DIGGERLAND USA </h3>
+					</div>
+			    </td>
+			    <td class="credential-person"> <%= image_tag("faces/Tob.jpg") %> 
+			    	<div class="credential_text_person">
+				    	<h2>CHRIS PETERS </h2> 
+					    <h3>DIRECTOR OF MARKETING AND PR, DIGGERLAND USA </h3> 
+				    </div>
+				</td>
+			  </tr>
+			  </table>
 		</div>
-		</div>
-
-
+	</div>		
+</div>
 
 <div class="clients_map">
 <div class="container">
 		<h1>International clients</h1>
-		
-		<%= image_tag("map.png", :class=> "map") %>
-		<br>
-		<%= image_tag("pobrane.png") %>
-		<%= image_tag("komp.png") %>
-		<%= image_tag("pobrane (1).png") %>
+
+			<%= image_tag("glownamapa.png", :class=> "map") %>
+
 
 </div>
 </div>

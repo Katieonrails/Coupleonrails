@@ -1,0 +1,2 @@
+json.extract! test_model, :id, :title, :body, :published, :publish_at, :conversion_rate, :views_counter, :state_id, :city_id, :created_at, :updated_at
+json.url test_model_url(test_model, format: :json)

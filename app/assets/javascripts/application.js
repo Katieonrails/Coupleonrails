@@ -12,6 +12,22 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require bootstrap
 //= require_tree .
 //= require bootstrap/dist/js/bootstrap.min.js
+
+$( document ).ready(function() {
+    $( "#test_model_state_id" ).change(function() {
+		$.ajax({
+			url: "/states/" + $("#test_model_state_id").val() + ".js",
+			dataType: "html"
+		}).done(function( data ) {
+			$( "#test_model_city_id" ).html(data);
+		});
+	});
+	$( "#show_logos_button" ).click(function() {
+		  $(".logos_container").animate({
+		  	height: '650px'
+		  });
+		});
+});

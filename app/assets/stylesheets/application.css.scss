@@ -20,6 +20,24 @@ $fa-font-path: "font-awesome/fonts";
 
 .top_home_background {
 	background-color: #2b3035;
+	height: 70px;
+	overflow: hidden;
+}
+
+.logocontainer {
+	width: 75px;
+    background-color: #ec1756;
+    height: 70px;
+    display: inline-block;
+    float: left;
+}
+
+.logo_text {
+	display: inline-block;
+	float: left;
+	color: white;
+	font-size: 26px;
+    margin: 16px 0px 0px 10px;
 }
 
 .navbar-nav a{
@@ -27,18 +45,22 @@ $fa-font-path: "font-awesome/fonts";
 	padding-bottom: 12px !important;
 }
 
-.navbar-nav a:hover{
-	border-radius: 2px;
-	color: #04c4d9;
-	border-bottom:3px solid #04c4d9;
+.navbar-nav .active {
+	background-color: #242931;
+	border-bottom:5px solid #ec1756;
+	height: 70px;
+}
+.navbar-nav li {
+	a {
+		text-transform: uppercase;
+		font-weight: bolder;
+	}
+	padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 10px;
+    font-size: 14px;
 }
 
-.homeline1 {
-	width:25%; 
-	height:2px; 
-	background: #04c4d9;
-	margin: 15px auto;
-}
 
 .subject {
 	font-size: 175%;
@@ -47,6 +69,21 @@ $fa-font-path: "font-awesome/fonts";
 	margin-bottom: 30px;
 }
 
+.footer {
+	height: 71px;
+	background-color: #2a2f37;
+	color: white;
+	margin-top: 0;
+	p {
+		display: inline-block;
+	    font-size: 18px;
+	    letter-spacing: 1px;
+	    margin: 21px 0 0 -4px;
+	}
+	.fa-copyright {
+		margin: 0 8px 0 0px;
+	}
+}
 
 .two_columns {
 	color: #2b3035;
@@ -74,9 +111,38 @@ $fa-font-path: "font-awesome/fonts";
     border-color: #04c4d9;
 }
 
-.icons {
-	font-size: 3em;
-	color: white;
+.icon_fb_background {
+	height: 71px;
+	width: 71px;
+	background-color: #3b5998;
 }
 
+.icon_yt_background {
+	background-color: #d04b4b;
+	height: 71px;
+	width: 71px;
+}
 
+.icon_insta_background {
+	background-color: #3f729b;
+	height: 71px;
+	width: 71px;
+}
+
+.icons {
+	display: inline-block;
+	margin-top: 25px;
+	font-size: 2em;
+	color: white;
+	float: right;
+	margin: 0 0 0 0;
+}
+
+.icons_background {
+	display: inline-block;
+	float: right;
+}
+
+.fa_social {
+	margin: 21px 0 0 21px;
+}
