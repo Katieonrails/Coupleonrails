@@ -20,8 +20,7 @@ $fa-font-path: "font-awesome/fonts";
 
 .top_home_background {
 	background-color: #2b3035;
-	height: 70px;
-	overflow: hidden;
+	height: 71px;
 }
 
 .logocontainer {
@@ -50,6 +49,7 @@ $fa-font-path: "font-awesome/fonts";
 	border-bottom:5px solid #ec1756;
 	height: 70px;
 }
+
 .navbar-nav li {
 	a {
 		text-transform: uppercase;
@@ -144,5 +144,74 @@ $fa-font-path: "font-awesome/fonts";
 }
 
 .fa_social {
-	margin: 21px 0 0 21px;
+	margin: 22px 0 0 26px;
+}
+
+.footer_copywrite {
+			    white-space: nowrap;
+			}
+			
+@media only screen 
+  and (min-width: 765px) 
+  and (max-width: 1024px)  {
+  	.logo_text {
+	    font-size: 20px;
+	    margin: 21px 0px 0px 10px;
+	}
+	.navbar-nav li {
+	    padding-right: 4px;
+	    padding-left: 4px;
+	    padding-top: 10px;
+	    font-size: 13px;
+	}
+}
+
+
+@media only screen 
+  and (max-width: 765px)  {
+	.navbar-nav li {
+	    padding-right: 12px;
+	    padding-left: 12px;
+	    padding-top: 10px;
+	    font-size: 14px;
+	    background-color: #242931 !important;
+	    border-bottom: none !important;
+	}
+}
+
+@media only screen   
+	and (min-width: 320px) 
+	  and (max-width: 777px) {
+		.footer {
+			height: auto;
+				p {
+		    display: inline-block;
+		    font-size: 10px;
+		    margin: 19px 0 0 5px;
+		    letter-spacing: none; 
+		}
+		}
+
+		.icon_fb_background {
+		    height: 35px;
+		    width: 35px;
+		}
+
+		.icon_yt_background {
+ 			height: 35px;
+		    width: 35px;
+		}
+
+		.icon_insta_background {
+	 		height: 35px;
+		    width: 35px;
+		}
+
+		.fa_social {
+		    margin: 11px auto 0px 12px;
+		    font-size: 14px;
+		    display: block;
+			}
+
+
 }
